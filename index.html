@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="Gravity Circuit 重力回路 53 个 Steam 成就最速攻略表，包含解锁条件、成就类型和最快获取方法。" />
+<title>重力回路 Gravity Circuit · 全成就最速攻略</title>
+<style>
+:root {
+  --bg:#061522; --panel:#0b2434; --panel2:#102f42; --line:#2a6f90;
+  --cyan:#62d7ff; --orange:#ff9f43; --yellow:#ffd75e; --text:#eef8ff;
+  --muted:#9fc3d4; --paper:#f7fbfe; --ink:#112331; --row:#eaf6fb;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 50% -20%,#143d54 0,#061522 42%,#03101a 100%);color:var(--text);font-family:Inter,"Segoe UI","Microsoft YaHei","PingFang SC",Arial,sans-serif;}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.12;background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:8px 8px;}
+.wrap{width:min(1600px,100%);margin:0 auto;padding:28px 18px 46px;position:relative}
+.hero{border:3px solid var(--cyan);background:linear-gradient(180deg,#173c50,#0b2434);box-shadow:0 0 0 4px #061522,0 0 34px rgba(98,215,255,.18);padding:26px 28px 22px;margin-bottom:18px;position:relative;overflow:hidden}
+.hero::before,.hero::after{content:"";position:absolute;width:170px;height:170px;border:18px solid rgba(255,159,67,.13);transform:rotate(45deg);top:-110px}
+.hero::before{left:-70px} .hero::after{right:-70px}
+.kicker{font-size:13px;letter-spacing:.18em;color:var(--orange);font-weight:900;text-transform:uppercase;margin-bottom:8px}
+h1{font-size:clamp(30px,4vw,58px);line-height:1.06;margin:0;font-weight:1000;letter-spacing:-.03em;text-shadow:0 3px 0 #061522}
+.hero p{margin:12px 0 0;color:var(--muted);font-size:16px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.badge{border:1px solid #316d88;background:#0a1d29;padding:6px 10px;border-radius:999px;font-size:13px;color:#cbefff}
+.controls{display:grid;grid-template-columns:minmax(250px,1fr) 180px 220px auto;gap:10px;align-items:center;background:#081d2b;border:1px solid #2a6381;padding:12px;margin:0 0 12px}
+.controls input,.controls select{width:100%;border:1px solid #2b6c8a;background:#061522;color:#fff;padding:10px 11px;outline:none;font:inherit}
+.controls input:focus,.controls select:focus{border-color:var(--cyan);box-shadow:0 0 0 2px rgba(98,215,255,.15)}
+.count{color:#b9d9e7;font-weight:800;white-space:nowrap;text-align:right}
+.table-shell{background:#d8edf6;border:3px solid #fff;box-shadow:0 0 0 4px #0c719b,0 16px 50px rgba(0,0,0,.35);overflow:auto;max-height:none}
+table{border-collapse:collapse;width:100%;min-width:1380px;table-layout:fixed;color:var(--ink);background:var(--paper)}
+col.c1{width:54px} col.c2{width:92px} col.c3{width:205px} col.c4{width:170px} col.c5{width:280px} col.c6{width:130px} col.c7{width:auto}
+thead th{position:sticky;top:0;z-index:3;padding:12px 9px;background:linear-gradient(180deg,#0e5f86,#0a4665);color:white;border-right:1px solid rgba(255,255,255,.2);font-size:15px;text-align:center}
+tbody td{padding:10px 9px;border-right:1px solid #b7d8e7;border-bottom:1px solid #b7d8e7;vertical-align:top;font-size:14px;line-height:1.52;background:#fff;word-break:break-word}
+tbody tr:nth-child(even) td{background:var(--row)}
+tbody tr:hover td{background:#dff3fc}
+td.num,td.diff,td.type{text-align:center;font-weight:900} td.diff{color:#df9600;letter-spacing:1px} td.en{font-weight:900;color:#173a50} td.cn{font-weight:900;color:#102c3d}
+td.fast{font-weight:600} .logic{color:#7a3c00;font-weight:800}
+.empty{display:none;color:#c9e7f5;text-align:center;padding:30px;border:1px dashed #3a6a80;background:#071a27;margin-top:12px}
+footer{color:#83aabd;text-align:center;padding-top:22px;font-size:13px}
+footer a{color:#62d7ff;text-decoration:none}
+@media(max-width:900px){.wrap{padding:14px 8px 30px}.controls{grid-template-columns:1fr 1fr}.count{text-align:left}.hero{padding:20px 18px}}
+@media(max-width:560px){.controls{grid-template-columns:1fr}.count{text-align:left}}
+@media print{body{background:#fff}body::before,.controls,footer{display:none}.wrap{width:100%;padding:0}.hero{box-shadow:none;color:#000;border:0;background:#fff;padding:0 0 12px}.hero p,.kicker,.badges{color:#333}.table-shell{box-shadow:none;border:0;overflow:visible}table{min-width:0;font-size:9px}thead th{position:static;color:#fff;background:#234}tbody td{font-size:9px;padding:4px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <section class="hero">
+    <div class="kicker">GRAVITY CIRCUIT · ACHIEVEMENT SPEEDRUN GUIDE</div>
+    <h1>重力回路 · 全成就最速攻略</h1>
+    <p>53 个成就，按综合难度排序。重点不是“能完成”，而是尽量用最短路线、最少返工完成。</p>
+    <div class="badges"><span class="badge">53 个成就</span><span class="badge">中英双语</span><span class="badge">必要逻辑</span><span class="badge">最速路线</span></div>
+  </section>
+
+  <section class="controls" aria-label="筛选">
+    <input id="q" type="search" placeholder="搜索：中文名 / 英文名 / 解锁条件 / 最速方法…" />
+    <select id="difficulty"><option value="">全部难度</option><option>★</option><option>★★</option><option>★★★</option><option>★★★★</option><option>★★★★★</option></select>
+    <select id="type"><option value="">全部类型</option></select>
+    <div class="count" id="count">53 / 53</div>
+  </section>
+
+  <section class="table-shell">
+    <table>
+      <colgroup><col class="c1"><col class="c2"><col class="c3"><col class="c4"><col class="c5"><col class="c6"><col class="c7"></colgroup>
+      <thead><tr><th>#</th><th>难度</th><th>英文名</th><th>中文名</th><th>解锁条件</th><th>成就类型</th><th>最快获取方法</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </section>
+  <div class="empty" id="empty">没有匹配的成就。</div>
+
+  <footer>Unofficial community guide · <a href="https://github.com/xiaoyi001yeye/GravityCircuit">GitHub: xiaoyi001yeye/GravityCircuit</a></footer>
+</main>
+<script>
+const DATA=[{"#":"1","难度":"★","英文名":"SIMPLE FINISH!","中文名":"利落谢幕！","解锁条件":"不使用燃爆技能击败一个 Boss","成就类型":"Boss挑战","最快获取方法":"最速：如果已解锁 C.O.M. 重战，直接 Easy 重打一只你最熟的前期 Boss；全程只用普通攻击/钩索，绝对不按 Burst。必要逻辑：只要整场 Boss 战没有使用任何 Burst Technique，击杀时即可解锁。"},{"#":"2","难度":"★","英文名":"PUGILIST!","中文名":"清道夫！","解锁条件":"累计击败100个敌人","成就类型":"累计战斗","最快获取方法":"最速：不要单刷。做“投球机/一步登天/沾满鲜血的胜利”时自然叠加100杀，通常首周目前段就会跳。必要逻辑：任意战斗击杀都累计。"},{"#":"3","难度":"★","英文名":"HEY, THAT'S FRAGILE!","中文名":"小心，易碎品！","解锁条件":"在总部破坏黄色玻璃管","成就类型":"彩蛋","最快获取方法":"最速：回 HQ，去 Nurse/Medic 附近，对黄色玻璃管连续攻击4次。必要逻辑：第4次后触发成就，并扣100金币；金币不够时先攒100。"},{"#":"4","难度":"★","英文名":"TAKE A BREATHER!","中文名":"休息一会儿！","解锁条件":"与 Fix 一起坐下休息","成就类型":"彩蛋","最快获取方法":"最速：先救出 Fix，回 HQ 站到沙发旁按 Burst 键坐下，停留几秒。必要逻辑：要在 Fix 旁的沙发触发；顺便多坐几秒还能拿 Fix 的 Data Chip。"},{"#":"5","难度":"★","英文名":"SHOOT THE HOOP!","中文名":"我想打篮球！","解锁条件":"投篮命中一次","成就类型":"彩蛋","最快获取方法":"最速：Highway 救出 K.I.D（车辆起飞后先往左），回 HQ 和 K.I.D 对话拿训练球；装 Air Jumper，站篮筐正下方，二段跳后垂直向下扔球。必要逻辑：球必须从篮筐顶部进入。"},{"#":"6","难度":"★","英文名":"RETURN TO OWNER!","中文名":"完璧归赵！","解锁条件":"把 Boss 制造的物体扔回并命中 Boss","成就类型":"Boss技巧","最快获取方法":"最速：去 Junkyard 打 Trace，这是社区攻略明确推荐的最容易对象；等它生成可抓物体，用 Hookshot 抓住后立刻扔回 Trace。必要逻辑：必须是“Boss 生成的物体”命中该 Boss，本身不要求用它击杀。"},{"#":"7","难度":"★","英文名":"FLASHY FINISH!","中文名":"华丽谢幕！","解锁条件":"用燃爆技能击败 Boss","成就类型":"Boss技巧","最快获取方法":"最速：C.O.M./关卡里重打最弱 Boss，先用普通攻击压到一丝血，预留能量，最后用伤害型 Burst 直接收尾。必要逻辑：Boss 的最后一点血必须由 Burst Technique 造成。"},{"#":"8","难度":"★","英文名":"NO JOKING AROUND!","中文名":"开什么玩笑！","解锁条件":"Hash 嘲笑时攻击他","成就类型":"Boss特殊","最快获取方法":"最速：Easy 打 Hash，先别急着杀；让自己被打中几次，等 Hash 明显停下来笑时立刻打中它一下。必要逻辑：必须在“笑的动作期间”造成伤害；不是你打它它就会笑。"},{"#":"9","难度":"★","英文名":"BARK BARK!","中文名":"汪汪！","解锁条件":"抚摸一只狗","成就类型":"彩蛋","最快获取方法":"最速：先救出 Yuki 或 Amadeus 任意一只，回 HQ 靠近狗，按 Burst 键互动。必要逻辑：必须先完成对应救援，狗才会出现在 HQ。"},{"#":"10","难度":"★","英文名":"CHUCK 'EM!","中文名":"投球机！","解锁条件":"用投掷物击败50个敌人","成就类型":"累计战斗","最快获取方法":"最速：推荐 Heavy Orange（加长 Hookshot）+ Air Jumper + Power Extender；Easy 进杂兵密集区，把A打到灰色可抓状态→Hookshot抓A→扔死B→再抓B继续接力。必要逻辑：最后一下必须来自“投掷物”；不要把A继续打成红色 Overkill。直接刷到100可顺便完成 BLAST 'EM!。"},{"#":"11","难度":"★★","英文名":"FIGHTER!","中文名":"斗士！","解锁条件":"累计击败250个敌人","成就类型":"累计战斗","最快获取方法":"最速：和投掷击杀、Overkill、二周目/限制周目一起做，不要专门刷；250杀通常首周目自然完成。必要逻辑：所有普通战斗击杀都会累计。"},{"#":"12","难度":"★★","英文名":"BURST THEM!","中文名":"燃爆全场！","解锁条件":"使用燃爆技能100次","成就类型":"累计技能","最快获取方法":"最速：Energy Absorber + Energy Multiplier，能量一满就连续放瞬发/低前摇 Burst；若已开 Circuit Mode，可更激进地连续施放。必要逻辑：只计算“使用次数”，不要求命中或击杀。"},{"#":"13","难度":"★★","英文名":"SIMPLE CLEAR!","中文名":"利落清关！","解锁条件":"不使用燃爆技能完成一个关卡","成就类型":"关卡挑战","最快获取方法":"最速：回 Mission Select 选最短、最熟的关（优先 Central Station/序章若可选），Easy，全程把 Burst 键当不存在。必要逻辑：从进关到结算一次 Burst 都不能用。"},{"#":"14","难度":"★★","英文名":"NO TIME FOR REPAIRS!","中文名":"来不及修！","解锁条件":"不使用修理站完成一个关卡","成就类型":"关卡挑战","最快获取方法":"最速：回 Mission Select 选最短关，Easy，直接冲到底；经过存档点也不要按上补血/补能量。必要逻辑：“修理站”指 checkpoint 处按上恢复，碰到检查点本身没关系。"},{"#":"15","难度":"★★","英文名":"HANDS OFF!","中文名":"别碰我！","解锁条件":"Kernel 战中不被抓取","成就类型":"Boss挑战","最快获取方法":"最速：对 Kernel 用 Air Jumper，开场直接用高伤 Burst 快速压血；看到抓取前摇就拉开/跳开，被抓到立刻重载检查点重来。必要逻辑：可以吃别的攻击，但整场不能被 grab 抓住。"},{"#":"16","难度":"★★","英文名":"AVOID THE HANDS!","中文名":"躲开他的巴掌！","解锁条件":"不被 Commander Circuit 的巨手压中","成就类型":"Boss挑战","最快获取方法":"最速：Commander Circuit 战只盯巨手落点预警，横向冲刺/跳开；其余伤害可忽略，手掌压到就立即重载检查点。必要逻辑：只判定“被巨手压中”。"},{"#":"17","难度":"★★","英文名":"BARK BARK?","中文名":"汪汪？","解锁条件":"救出 Yuki 和 Amadeus","成就类型":"救援","最快获取方法":"最速：Mountains 开局出生点立刻向左救 Yuki；City Center 中段弹簧攀爬后，在到顶前打破左墙救 NPC6 Amadeus。必要逻辑：两只都救到才跳。"},{"#":"18","难度":"★★","英文名":"NO BOT LEFT BEHIND!","中文名":"一个都不能少！","解锁条件":"任意一个 Rebel Circuit 关卡救出全部8个机器人","成就类型":"救援","最快获取方法":"最速：先看 Mission Select 的 x/8 进度，优先选择你已经 7/8 或 6/8 的关补齐；这是绝对比从0开始快。必要逻辑：只要求“同一关”的8个全部救出，不需要8关都满。"},{"#":"19","难度":"★★","英文名":"MISSION - ALL DONE?","中文名":"任务...都完成了？","解锁条件":"击败8个 Rebel Circuits","成就类型":"剧情","最快获取方法":"最速：Easy 主线直冲，完成8个 Rebel Circuit 主任务并击败8个对应 Boss；所有支线/收集先跳过。必要逻辑：必须是8个主任务 Boss 全部击败。"},{"#":"20","难度":"★★","英文名":"MISSION - ALL OVER!","中文名":"任务...全部完成！","解锁条件":"第一次通关","成就类型":"剧情","最快获取方法":"最速：Easy，只走主线，能跳的收集全部跳，最终 Boss 后自动获得。必要逻辑：第一次完整通关即可。"},{"#":"21","难度":"★★","英文名":"BLAST 'EM!","中文名":"一步登天！","解锁条件":"用投掷物击败100个敌人","成就类型":"累计战斗","最快获取方法":"最速：直接沿用“投球机”接力打法，一次刷到100，不要50时停。必要逻辑：必须由你扔出的敌人/物体完成最后一击；和 CHUCK 'EM! 共用同一累计计数。"},{"#":"22","难度":"★★","英文名":"RETURN THE GIFT!","中文名":"礼尚往来！","解锁条件":"抓住敌人的盾牌并投掷10次","成就类型":"特殊操作","最快获取方法":"最速：Warehouse Area 开头附近找 Shielded Soldier；它的盾弹开后用 Hookshot 抓盾并扔出，随后向左滚一屏再回来让敌人重刷，循环10次。必要逻辑：只要求“抓盾并扔出”，不要求盾命中目标。"},{"#":"23","难度":"★★","英文名":"OBJECTIVE: SURVIVE!","中文名":"目标：生存！","解锁条件":"一场 Boss 战中经历10次 Burst 后击败 Boss","成就类型":"Boss挑战","最快获取方法":"最速：C.O.M. 重打一只你最熟悉、Burst 好躲的 Boss；先不要杀，带减伤/回血芯片，数清10次 Burst，再击杀。必要逻辑：必须在同一场战斗里存活10次 Burst，而且最后还要把 Boss 打死才结算。"},{"#":"24","难度":"★★","英文名":"WARRIOR!","中文名":"无畏勇士！","解锁条件":"累计击败1000个敌人","成就类型":"累计战斗","最快获取方法":"最速：不要前期专门刷；正常做首周目全收集 + NG+ + Circuit/限制周目，1000杀通常自然到。最后若差一点，再找会重刷的杂兵密集段来回滚屏刷。必要逻辑：所有战斗击杀累计。"},{"#":"25","难度":"★★★","英文名":"RED-TINTED BEAT DOWN!","中文名":"沾满鲜血的胜利！","解锁条件":"对250个敌人完成 Overkill","成就类型":"累计战斗","最快获取方法":"最速：从一开始就把每只普通杂兵打到灰色尸体后继续补拳，直到变红爆炸；这样首周目就能叠很多。必要逻辑：灰色=可抓状态，继续打到红色爆炸才算1次 Overkill。"},{"#":"26","难度":"★★★","英文名":"TECHNIQUE PRACTITIONER!","中文名":"唯手熟尔！","解锁条件":"学会全部燃爆技能","成就类型":"收集/购买","最快获取方法":"最速：先打完8个基础任务，因为全部 Burst 会在那之后开放；期间别乱花金币，回 HQ 找 N/后期 Nurse 一次性买齐。必要逻辑：Flying Strike 是免费初始技能，其余需解锁并购买。"},{"#":"27","难度":"★★★","英文名":"CHIP COLLECTOR!","中文名":"芯片收藏家！","解锁条件":"获得全部 Booster Chip","成就类型":"收集/购买","最快获取方法":"最速：和 HEROIC RESCUE 同时做，因为 Booster Chip 需要 Rescue Token；64人救援过程中攒币，最后回 Nurse 一次性买齐。必要逻辑：Energy Absorber 是免费给的，也属于完整芯片集合的一部分。"},{"#":"28","难度":"★★★","英文名":"TRULY HEALTHY!","中文名":"身体倍儿棒！","解锁条件":"找齐4个生命升级","成就类型":"收集","最快获取方法":"最速：只需记4关各1个生命升级：Steelworks、Junkyard、Mountains、City Center；做64人救援时顺路一次拿齐。必要逻辑：总共4个，别在“Already Healthy”限制周目里捡。"},{"#":"29","难度":"★★★","英文名":"TRULY ENERGETIC!","中文名":"活力四射！","解锁条件":"找齐4个燃爆能量升级","成就类型":"收集","最快获取方法":"最速：只需记4关各1个能量升级：Power Plant、Highway、Ore Mines、Warehouse Area；做64人救援时顺路一次拿齐。必要逻辑：总共4个，别在“Already Energetic”限制周目里捡。"},{"#":"30","难度":"★★★","英文名":"MECH A NEW FRIEND!","中文名":"机甲，我的新朋友！","解锁条件":"Ore Mines 中机甲不被摧毁","成就类型":"关卡挑战","最快获取方法":"最速：Ore Mines 两台机甲都用远程 Hookshot 攻击慢推，避开 Crush Jumper 和落石；第一台末段走上路线下车，第二台到 Boss 门前下车，别掉进洞。必要逻辑：两台机甲都不能被打爆；攻略成功案例也建议不要走机甲的替代路线。"},{"#":"31","难度":"★★★","英文名":"WATCH THE SIGNS!","中文名":"看好路牌！","解锁条件":"Highway 不碰任何路牌","成就类型":"关卡挑战","最快获取方法":"最速：Highway 一看到屏幕右侧绿色闪烁提示，就停下/后退到不会与路牌同高度的位置，等路牌飞过再前进。必要逻辑：这些路牌不会重刷；无需打 Boss，完整到达关卡末段即可。"},{"#":"32","难度":"★★★","英文名":"NO GOOP FOR ME!","中文名":"糊糊免谈！","解锁条件":"Junkyard 中不被紫色黏液抓住","成就类型":"关卡挑战","最快获取方法":"最速：Junkyard 只防两类紫胶：蜘蛛远程弹、天花板 Dropper；蜘蛛用投掷物/远程先秒，Dropper 停一下等落胶空档再过。必要逻辑：只要不被“紫胶定身”即可，进 Boss 房就会结算，不用打 Boss。"},{"#":"33","难度":"★★★","英文名":"NO ROBOT CREAM!","中文名":"不做机器人冰淇淋！","解锁条件":"Mountains 中不被冻结","成就类型":"关卡挑战","最快获取方法":"最速：Mountains 用 Air Jumper + Screen Interrupt；远程先清冰球小怪、双向炮台、三向飞行敌人，墙面冷气感应器直接快速穿。必要逻辑：任何“冻结”都算失败；到 Boss 房即结算，不用打 Boss。"},{"#":"34","难度":"★★★","英文名":"FASTER THAN LIGHT!","中文名":"超越光速！","解锁条件":"Steelworks 中不被激光击中","成就类型":"关卡挑战","最快获取方法":"最速：Steelworks 不用抢速度；先触发激光，再贴墙/停在安全位等一轮结束再过，稳定比硬冲快。必要逻辑：整关不能被任何激光命中；普通敌人伤害不影响此成就。"},{"#":"35","难度":"★★★","英文名":"SHOCK HOPPER!","中文名":"敏捷蹦跳！","解锁条件":"Power Plant 中不碰带电地板","成就类型":"关卡挑战","最快获取方法":"最速：Power Plant 装 Air Jumper；中段竖激光带电平台按安全区慢走，最后折返攀爬可“按住上 + 连按 Gravity Dash”跳过精细走位。必要逻辑：一旦踩到带电表面，需重开本关。"},{"#":"36","难度":"★★★","英文名":"PROTECT YOUR EARS!","中文名":"保护你的耳朵！","解锁条件":"不被 Medley 巨型音箱的声波命中","成就类型":"Boss/关卡挑战","最快获取方法":"最速：City Center 经过巨型音箱区域时先停一下看波形节奏，优先用二段跳/墙跳跨过声波高度；不贪清怪。必要逻辑：只要被“巨型音箱声波”打中就失败，其他普通伤害不影响该成就。"},{"#":"37","难度":"★★★","英文名":"NO TIME FOR SPIKES!","中文名":"完美无瑕！","解锁条件":"一个关卡不受到环境陷阱伤害","成就类型":"关卡挑战","最快获取方法":"最速：直接和 FLAWLESS CLEAR! 一起做；Central Station/序章无伤一遍最省时间。必要逻辑：本成就只要求无“环境陷阱伤害”，而无伤通关会自动满足。"},{"#":"38","难度":"★★★","英文名":"HOOP EXPERT!","中文名":"套圈达人！","解锁条件":"连续10球空心入网","成就类型":"技巧/彩蛋","最快获取方法":"最速：救 K.I.D 后在 HQ 拿球，装 Air Jumper，站篮筐正下方→二段跳→垂直向下投；连续重复10次。必要逻辑：球碰到篮框边缘会发声/有击中特效并打断连续计数，必须10次空心。"},{"#":"39","难度":"★★★","英文名":"HEROIC RESCUE!","中文名":"英勇救援！","解锁条件":"救出全部64个机器人","成就类型":"全救援","最快获取方法":"最速：8个 Rebel Circuit 关卡，每关8人，共64；严格按 Mission Select 显示的顺序一次性扫图，同时把4生命+4能量升级一起拿掉，避免二次跑图。必要逻辑：关卡选择界面的编号顺序可帮助判断漏的是前段/中段/后段。"},{"#":"40","难度":"★★★★","英文名":"BURST DODGER!","中文名":"燃爆躲避王！","解锁条件":"Nega 战中避开全部 Burst","成就类型":"Boss挑战","最快获取方法":"最速：Ark - Entrance 打 Nega/N；装 Air Jumper，2/3阶段看到 Burst 就只躲不贪刀，空档用自己的 Burst 快速压血；被其 Burst 命中就立刻“Reload Last Checkpoint”。必要逻辑：只要求避开它的 Burst，普通攻击受伤不一定影响。"},{"#":"41","难度":"★★★★","英文名":"PERFECT FINISH!","中文名":"完美谢幕！","解锁条件":"无伤击败一个 Boss","成就类型":"Boss无伤","最快获取方法":"最速：C.O.M. 重打 Cable（Power Plant Boss，攻略作者用它完成）；Easy，Air Jumper + Power Extender + Light Alloy，满能量后用击退型 Burst 爆发。必要逻辑：整场 Boss 不能掉血；一被打立刻重载检查点重试。"},{"#":"42","难度":"★★★★","英文名":"HOOKSHOT ONLY!","中文名":"只用钩索！","解锁条件":"仅靠钩索或投掷完成一个关卡","成就类型":"限制挑战","最快获取方法":"最速：优先选最短、最熟关；若 Central Station 在你的版本可计数就优先它。全程手离普通攻击键和 Burst 键，只用 Hookshot 抓、甩、投掷。必要逻辑：连 Boss 也必须只靠 Hookshot/throws 击败。"},{"#":"43","难度":"★★★★","英文名":"DATA HOARDER!","中文名":"数据储存狂！","解锁条件":"收集并研究全部 Data Chips","成就类型":"全收集","最快获取方法":"最速：先做完其它收集再看缺口，别一开始盲刷。敌人45枚为随机掉落，只刷缺失敌人所在最短关；Boss 13枚首次击败后立刻捡，角色22枚要把对话聊完，Fix 需在沙发多坐一会。必要逻辑：漏 Boss 芯片会因自动退关而必须重打一遍。"},{"#":"44","难度":"★★★★","英文名":"EVERYONE IS HERE!","中文名":"一个都不能少！","解锁条件":"让所有相关角色出现在结局","成就类型":"完成度/结局","最快获取方法":"最速：在首周目先完成64人救援、全 Booster、全 Burst，并尽量把 Research Compendium 补满（社区经验常用92%+作为安全线），然后重新选最终关击败最终 Boss。必要逻辑：成就在最终 Boss 后的结局动画中弹出。"},{"#":"45","难度":"★★★★","英文名":"MISSION - ALL OVER, AGAIN!","中文名":"任务...再来一回！","解锁条件":"New Game+ 通关","成就类型":"二周目","最快获取方法":"最速：首通后开 New Game+，选 Easy，继承芯片/技能/升级/NPC 后只冲主线，不再做收集。必要逻辑：必须从 NG+ 模式文件完整通关。"},{"#":"46","难度":"★★★★","英文名":"ALREADY ENERGETIC!","中文名":"已经活力满满了！","解锁条件":"不拿燃爆能量升级通关","成就类型":"限制通关","最快获取方法":"最速：放到第3周目，与下面4个限制成就一次做：Circuit Mode + Easy，全程不碰任何 Burst Energy Upgrade。必要逻辑：升级拾取一旦拿到本周目就废；其余普通能量补给可正常拿。"},{"#":"47","难度":"★★★★","英文名":"ALREADY HEALTHY!","中文名":"已经很健康了！","解锁条件":"不拿生命升级通关","成就类型":"限制通关","最快获取方法":"最速：和 ALREADY ENERGETIC / ALMOST CHIPLESS / ALMOST TECHNIQUELESS / CIRCUIT STYLE FINISH 同周目完成；Easy，全程绕开所有 Health Upgrade。必要逻辑：普通回血、修理站不算“生命升级”。"},{"#":"48","难度":"★★★★","英文名":"ALMOST CHIPLESS!","中文名":"根本用不着芯片！","解锁条件":"不购买额外 Booster Chip 通关","成就类型":"限制通关","最快获取方法":"最速：Circuit Mode + Easy 限制周目中，Nurse 开局强制给的 Energy Absorber 可以正常拿/装备，之后一个 Booster Chip 都不要买。必要逻辑：关键是“不购买额外芯片”，不是“不能装备免费芯片”。"},{"#":"49","难度":"★★★★","英文名":"ALMOST TECHNIQUELESS!","中文名":"根本用不着新技能！","解锁条件":"不购买额外燃爆技能通关","成就类型":"限制通关","最快获取方法":"最速：同一限制周目完成；序章免费得到 Flying Strike 可以正常使用，之后一个新 Burst Technique 都不要买。必要逻辑：关键是“不购买额外技能”，免费初始技能不破坏成就。"},{"#":"50","难度":"★★★★","英文名":"CIRCUIT STYLE FINISH!","中文名":"任务...完全回路风格！","解锁条件":"Circuit Mode 通关","成就类型":"模式通关","最快获取方法":"最速：第3周目直接 Circuit Mode + Easy，并和“不拿生命/能量升级、不买芯片、不买技能”4项合并，一趟拿5个成就。必要逻辑：Circuit Mode 需先在其它存档通关一次后解锁。"},{"#":"51","难度":"★★★★","英文名":"CIRCUIT MASTER!","中文名":"回路大师！","解锁条件":"Circuit Crystal 战一次完成且不能死亡","成就类型":"Boss挑战","最快获取方法":"最速：不用重新跑整关，去 HQ 的 C.O.M. Boss Refight，选择 Circuit Crystal 的“gauntlet”版本；Energy Multiplier + Energy Absorber + Repair Enhancer，带 Emergency Heal，一口气打完。必要逻辑：不能死亡，也不能在阶段存档后“Reload Checkpoint”；开发者确认 C.O.M. gauntlet 同样可解锁。"},{"#":"52","难度":"★★★★★","英文名":"FLAWLESS CLEAR!","中文名":"无损清关！","解锁条件":"无伤完成一个完整关卡","成就类型":"无伤挑战","最快获取方法":"最速：Mission Select 顶部中间重打 Central Station/序章，这是社区攻略明确推荐的最简单路线；一路用 Hookshot 抓怪远程砸怪，Boss 前存满 Burst。必要逻辑：必须“整关+Boss”都0受伤，只无伤跑图不算。"},{"#":"53","难度":"★★★★★","英文名":"FULL CLEAR!","中文名":"全成就！","解锁条件":"获得其余全部52个成就","成就类型":"全成就","最快获取方法":"最速：按“首周目全收集 → NG+速通 → Circuit Mode五合一限制周目 → 最后补无伤/特殊Boss挑战”的顺序做，其他52个全亮后自动跳。必要逻辑：FULL CLEAR 本身没有额外条件，只检查其余52个。"}];
+const $=s=>document.querySelector(s);
+const rowsEl=$('#rows'), qEl=$('#q'), diffEl=$('#difficulty'), typeEl=$('#type'), countEl=$('#count'), emptyEl=$('#empty');
+const types=[...new Set(DATA.map(x=>x['成就类型']))].sort((a,b)=>a.localeCompare(b,'zh-CN'));
+types.forEach(t=>{const o=document.createElement('option');o.value=t;o.textContent=t;typeEl.appendChild(o)});
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function enrichFast(s){return esc(s).replace(/必要逻辑：/g,'<span class="logic">必要逻辑：</span>')}
+function render(){
+  const q=qEl.value.trim().toLowerCase(), d=diffEl.value, t=typeEl.value;
+  const filtered=DATA.filter(x=>{
+    const hay=Object.values(x).join(' ').toLowerCase();
+    return (!q||hay.includes(q)) && (!d||x['难度']===d) && (!t||x['成就类型']===t);
+  });
+  rowsEl.innerHTML=filtered.map(x=>`<tr>
+    <td class="num">${esc(x['#'])}</td><td class="diff">${esc(x['难度'])}</td><td class="en">${esc(x['英文名'])}</td><td class="cn">${esc(x['中文名'])}</td><td>${esc(x['解锁条件'])}</td><td class="type">${esc(x['成就类型'])}</td><td class="fast">${enrichFast(x['最快获取方法'])}</td>
+  </tr>`).join('');
+  countEl.textContent=`${filtered.length} / ${DATA.length}`;
+  emptyEl.style.display=filtered.length?'none':'block';
+}
+[qEl,diffEl,typeEl].forEach(el=>el.addEventListener('input',render));render();
+</script>
+</body>
+</html>
