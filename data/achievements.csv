@@ -1,0 +1,55 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: 重力回路全成就表_最速版.csv>index,#,难度,英文名,中文名,解锁条件,成就类型,最快获取方法
+0,1,★,SIMPLE FINISH!,利落谢幕！,不使用燃爆技能击败一个 Boss,Boss挑战,最速：如果已解锁 C.O.M. 重战，直接 Easy 重打一只你最熟的前期 Boss；全程只用普通攻击/钩索，绝对不按 Burst。必要逻辑：只要整场 Boss 战没有使用任何 Burst Technique，击杀时即可解锁。
+1,2,★,PUGILIST!,清道夫！,累计击败100个敌人,累计战斗,最速：不要单刷。做“投球机/一步登天/沾满鲜血的胜利”时自然叠加100杀，通常首周目前段就会跳。必要逻辑：任意战斗击杀都累计。
+2,3,★,"HEY, THAT'S FRAGILE!",小心，易碎品！,在总部破坏黄色玻璃管,彩蛋,最速：回 HQ，去 Nurse/Medic 附近，对黄色玻璃管连续攻击4次。必要逻辑：第4次后触发成就，并扣100金币；金币不够时先攒100。
+3,4,★,TAKE A BREATHER!,休息一会儿！,与 Fix 一起坐下休息,彩蛋,最速：先救出 Fix，回 HQ 站到沙发旁按 Burst 键坐下，停留几秒。必要逻辑：要在 Fix 旁的沙发触发；顺便多坐几秒还能拿 Fix 的 Data Chip。
+4,5,★,SHOOT THE HOOP!,我想打篮球！,投篮命中一次,彩蛋,最速：Highway 救出 K.I.D（车辆起飞后先往左），回 HQ 和 K.I.D 对话拿训练球；装 Air Jumper，站篮筐正下方，二段跳后垂直向下扔球。必要逻辑：球必须从篮筐顶部进入。
+5,6,★,RETURN TO OWNER!,完璧归赵！,把 Boss 制造的物体扔回并命中 Boss,Boss技巧,最速：去 Junkyard 打 Trace，这是社区攻略明确推荐的最容易对象；等它生成可抓物体，用 Hookshot 抓住后立刻扔回 Trace。必要逻辑：必须是“Boss 生成的物体”命中该 Boss，本身不要求用它击杀。
+6,7,★,FLASHY FINISH!,华丽谢幕！,用燃爆技能击败 Boss,Boss技巧,最速：C.O.M./关卡里重打最弱 Boss，先用普通攻击压到一丝血，预留能量，最后用伤害型 Burst 直接收尾。必要逻辑：Boss 的最后一点血必须由 Burst Technique 造成。
+7,8,★,NO JOKING AROUND!,开什么玩笑！,Hash 嘲笑时攻击他,Boss特殊,最速：Easy 打 Hash，先别急着杀；让自己被打中几次，等 Hash 明显停下来笑时立刻打中它一下。必要逻辑：必须在“笑的动作期间”造成伤害；不是你打它它就会笑。
+8,9,★,BARK BARK!,汪汪！,抚摸一只狗,彩蛋,最速：先救出 Yuki 或 Amadeus 任意一只，回 HQ 靠近狗，按 Burst 键互动。必要逻辑：必须先完成对应救援，狗才会出现在 HQ。
+9,10,★,CHUCK 'EM!,投球机！,用投掷物击败50个敌人,累计战斗,最速：推荐 Heavy Orange（加长 Hookshot）+ Air Jumper + Power Extender；Easy 进杂兵密集区，把A打到灰色可抓状态→Hookshot抓A→扔死B→再抓B继续接力。必要逻辑：最后一下必须来自“投掷物”；不要把A继续打成红色 Overkill。直接刷到100可顺便完成 BLAST 'EM!。
+10,11,★★,FIGHTER!,斗士！,累计击败250个敌人,累计战斗,最速：和投掷击杀、Overkill、二周目/限制周目一起做，不要专门刷；250杀通常首周目自然完成。必要逻辑：所有普通战斗击杀都会累计。
+11,12,★★,BURST THEM!,燃爆全场！,使用燃爆技能100次,累计技能,最速：Energy Absorber + Energy Multiplier，能量一满就连续放瞬发/低前摇 Burst；若已开 Circuit Mode，可更激进地连续施放。必要逻辑：只计算“使用次数”，不要求命中或击杀。
+12,13,★★,SIMPLE CLEAR!,利落清关！,不使用燃爆技能完成一个关卡,关卡挑战,最速：回 Mission Select 选最短、最熟的关（优先 Central Station/序章若可选），Easy，全程把 Burst 键当不存在。必要逻辑：从进关到结算一次 Burst 都不能用。
+13,14,★★,NO TIME FOR REPAIRS!,来不及修！,不使用修理站完成一个关卡,关卡挑战,最速：回 Mission Select 选最短关，Easy，直接冲到底；经过存档点也不要按上补血/补能量。必要逻辑：“修理站”指 checkpoint 处按上恢复，碰到检查点本身没关系。
+14,15,★★,HANDS OFF!,别碰我！,Kernel 战中不被抓取,Boss挑战,最速：对 Kernel 用 Air Jumper，开场直接用高伤 Burst 快速压血；看到抓取前摇就拉开/跳开，被抓到立刻重载检查点重来。必要逻辑：可以吃别的攻击，但整场不能被 grab 抓住。
+15,16,★★,AVOID THE HANDS!,躲开他的巴掌！,不被 Commander Circuit 的巨手压中,Boss挑战,最速：Commander Circuit 战只盯巨手落点预警，横向冲刺/跳开；其余伤害可忽略，手掌压到就立即重载检查点。必要逻辑：只判定“被巨手压中”。
+16,17,★★,BARK BARK?,汪汪？,救出 Yuki 和 Amadeus,救援,最速：Mountains 开局出生点立刻向左救 Yuki；City Center 中段弹簧攀爬后，在到顶前打破左墙救 NPC6 Amadeus。必要逻辑：两只都救到才跳。
+17,18,★★,NO BOT LEFT BEHIND!,一个都不能少！,任意一个 Rebel Circuit 关卡救出全部8个机器人,救援,最速：先看 Mission Select 的 x/8 进度，优先选择你已经 7/8 或 6/8 的关补齐；这是绝对比从0开始快。必要逻辑：只要求“同一关”的8个全部救出，不需要8关都满。
+18,19,★★,MISSION - ALL DONE?,任务...都完成了？,击败8个 Rebel Circuits,剧情,最速：Easy 主线直冲，完成8个 Rebel Circuit 主任务并击败8个对应 Boss；所有支线/收集先跳过。必要逻辑：必须是8个主任务 Boss 全部击败。
+19,20,★★,MISSION - ALL OVER!,任务...全部完成！,第一次通关,剧情,最速：Easy，只走主线，能跳的收集全部跳，最终 Boss 后自动获得。必要逻辑：第一次完整通关即可。
+20,21,★★,BLAST 'EM!,一步登天！,用投掷物击败100个敌人,累计战斗,最速：直接沿用“投球机”接力打法，一次刷到100，不要50时停。必要逻辑：必须由你扔出的敌人/物体完成最后一击；和 CHUCK 'EM! 共用同一累计计数。
+21,22,★★,RETURN THE GIFT!,礼尚往来！,抓住敌人的盾牌并投掷10次,特殊操作,最速：Warehouse Area 开头附近找 Shielded Soldier；它的盾弹开后用 Hookshot 抓盾并扔出，随后向左滚一屏再回来让敌人重刷，循环10次。必要逻辑：只要求“抓盾并扔出”，不要求盾命中目标。
+22,23,★★,OBJECTIVE: SURVIVE!,目标：生存！,一场 Boss 战中经历10次 Burst 后击败 Boss,Boss挑战,最速：C.O.M. 重打一只你最熟悉、Burst 好躲的 Boss；先不要杀，带减伤/回血芯片，数清10次 Burst，再击杀。必要逻辑：必须在同一场战斗里存活10次 Burst，而且最后还要把 Boss 打死才结算。
+23,24,★★,WARRIOR!,无畏勇士！,累计击败1000个敌人,累计战斗,最速：不要前期专门刷；正常做首周目全收集 + NG+ + Circuit/限制周目，1000杀通常自然到。最后若差一点，再找会重刷的杂兵密集段来回滚屏刷。必要逻辑：所有战斗击杀累计。
+24,25,★★★,RED-TINTED BEAT DOWN!,沾满鲜血的胜利！,对250个敌人完成 Overkill,累计战斗,最速：从一开始就把每只普通杂兵打到灰色尸体后继续补拳，直到变红爆炸；这样首周目就能叠很多。必要逻辑：灰色=可抓状态，继续打到红色爆炸才算1次 Overkill。
+25,26,★★★,TECHNIQUE PRACTITIONER!,唯手熟尔！,学会全部燃爆技能,收集/购买,最速：先打完8个基础任务，因为全部 Burst 会在那之后开放；期间别乱花金币，回 HQ 找 N/后期 Nurse 一次性买齐。必要逻辑：Flying Strike 是免费初始技能，其余需解锁并购买。
+26,27,★★★,CHIP COLLECTOR!,芯片收藏家！,获得全部 Booster Chip,收集/购买,最速：和 HEROIC RESCUE 同时做，因为 Booster Chip 需要 Rescue Token；64人救援过程中攒币，最后回 Nurse 一次性买齐。必要逻辑：Energy Absorber 是免费给的，也属于完整芯片集合的一部分。
+27,28,★★★,TRULY HEALTHY!,身体倍儿棒！,找齐4个生命升级,收集,最速：只需记4关各1个生命升级：Steelworks、Junkyard、Mountains、City Center；做64人救援时顺路一次拿齐。必要逻辑：总共4个，别在“Already Healthy”限制周目里捡。
+28,29,★★★,TRULY ENERGETIC!,活力四射！,找齐4个燃爆能量升级,收集,最速：只需记4关各1个能量升级：Power Plant、Highway、Ore Mines、Warehouse Area；做64人救援时顺路一次拿齐。必要逻辑：总共4个，别在“Already Energetic”限制周目里捡。
+29,30,★★★,MECH A NEW FRIEND!,机甲，我的新朋友！,Ore Mines 中机甲不被摧毁,关卡挑战,最速：Ore Mines 两台机甲都用远程 Hookshot 攻击慢推，避开 Crush Jumper 和落石；第一台末段走上路线下车，第二台到 Boss 门前下车，别掉进洞。必要逻辑：两台机甲都不能被打爆；攻略成功案例也建议不要走机甲的替代路线。
+30,31,★★★,WATCH THE SIGNS!,看好路牌！,Highway 不碰任何路牌,关卡挑战,最速：Highway 一看到屏幕右侧绿色闪烁提示，就停下/后退到不会与路牌同高度的位置，等路牌飞过再前进。必要逻辑：这些路牌不会重刷；无需打 Boss，完整到达关卡末段即可。
+31,32,★★★,NO GOOP FOR ME!,糊糊免谈！,Junkyard 中不被紫色黏液抓住,关卡挑战,最速：Junkyard 只防两类紫胶：蜘蛛远程弹、天花板 Dropper；蜘蛛用投掷物/远程先秒，Dropper 停一下等落胶空档再过。必要逻辑：只要不被“紫胶定身”即可，进 Boss 房就会结算，不用打 Boss。
+32,33,★★★,NO ROBOT CREAM!,不做机器人冰淇淋！,Mountains 中不被冻结,关卡挑战,最速：Mountains 用 Air Jumper + Screen Interrupt；远程先清冰球小怪、双向炮台、三向飞行敌人，墙面冷气感应器直接快速穿。必要逻辑：任何“冻结”都算失败；到 Boss 房即结算，不用打 Boss。
+33,34,★★★,FASTER THAN LIGHT!,超越光速！,Steelworks 中不被激光击中,关卡挑战,最速：Steelworks 不用抢速度；先触发激光，再贴墙/停在安全位等一轮结束再过，稳定比硬冲快。必要逻辑：整关不能被任何激光命中；普通敌人伤害不影响此成就。
+34,35,★★★,SHOCK HOPPER!,敏捷蹦跳！,Power Plant 中不碰带电地板,关卡挑战,最速：Power Plant 装 Air Jumper；中段竖激光带电平台按安全区慢走，最后折返攀爬可“按住上 + 连按 Gravity Dash”跳过精细走位。必要逻辑：一旦踩到带电表面，需重开本关。
+35,36,★★★,PROTECT YOUR EARS!,保护你的耳朵！,不被 Medley 巨型音箱的声波命中,Boss/关卡挑战,最速：City Center 经过巨型音箱区域时先停一下看波形节奏，优先用二段跳/墙跳跨过声波高度；不贪清怪。必要逻辑：只要被“巨型音箱声波”打中就失败，其他普通伤害不影响该成就。
+36,37,★★★,NO TIME FOR SPIKES!,完美无瑕！,一个关卡不受到环境陷阱伤害,关卡挑战,最速：直接和 FLAWLESS CLEAR! 一起做；Central Station/序章无伤一遍最省时间。必要逻辑：本成就只要求无“环境陷阱伤害”，而无伤通关会自动满足。
+37,38,★★★,HOOP EXPERT!,套圈达人！,连续10球空心入网,技巧/彩蛋,最速：救 K.I.D 后在 HQ 拿球，装 Air Jumper，站篮筐正下方→二段跳→垂直向下投；连续重复10次。必要逻辑：球碰到篮框边缘会发声/有击中特效并打断连续计数，必须10次空心。
+38,39,★★★,HEROIC RESCUE!,英勇救援！,救出全部64个机器人,全救援,最速：8个 Rebel Circuit 关卡，每关8人，共64；严格按 Mission Select 显示的顺序一次性扫图，同时把4生命+4能量升级一起拿掉，避免二次跑图。必要逻辑：关卡选择界面的编号顺序可帮助判断漏的是前段/中段/后段。
+39,40,★★★★,BURST DODGER!,燃爆躲避王！,Nega 战中避开全部 Burst,Boss挑战,最速：Ark - Entrance 打 Nega/N；装 Air Jumper，2/3阶段看到 Burst 就只躲不贪刀，空档用自己的 Burst 快速压血；被其 Burst 命中就立刻“Reload Last Checkpoint”。必要逻辑：只要求避开它的 Burst，普通攻击受伤不一定影响。
+40,41,★★★★,PERFECT FINISH!,完美谢幕！,无伤击败一个 Boss,Boss无伤,最速：C.O.M. 重打 Cable（Power Plant Boss，攻略作者用它完成）；Easy，Air Jumper + Power Extender + Light Alloy，满能量后用击退型 Burst 爆发。必要逻辑：整场 Boss 不能掉血；一被打立刻重载检查点重试。
+41,42,★★★★,HOOKSHOT ONLY!,只用钩索！,仅靠钩索或投掷完成一个关卡,限制挑战,最速：优先选最短、最熟关；若 Central Station 在你的版本可计数就优先它。全程手离普通攻击键和 Burst 键，只用 Hookshot 抓、甩、投掷。必要逻辑：连 Boss 也必须只靠 Hookshot/throws 击败。
+42,43,★★★★,DATA HOARDER!,数据储存狂！,收集并研究全部 Data Chips,全收集,最速：先做完其它收集再看缺口，别一开始盲刷。敌人45枚为随机掉落，只刷缺失敌人所在最短关；Boss 13枚首次击败后立刻捡，角色22枚要把对话聊完，Fix 需在沙发多坐一会。必要逻辑：漏 Boss 芯片会因自动退关而必须重打一遍。
+43,44,★★★★,EVERYONE IS HERE!,一个都不能少！,让所有相关角色出现在结局,完成度/结局,最速：在首周目先完成64人救援、全 Booster、全 Burst，并尽量把 Research Compendium 补满（社区经验常用92%+作为安全线），然后重新选最终关击败最终 Boss。必要逻辑：成就在最终 Boss 后的结局动画中弹出。
+44,45,★★★★,"MISSION - ALL OVER, AGAIN!",任务...再来一回！,New Game+ 通关,二周目,最速：首通后开 New Game+，选 Easy，继承芯片/技能/升级/NPC 后只冲主线，不再做收集。必要逻辑：必须从 NG+ 模式文件完整通关。
+45,46,★★★★,ALREADY ENERGETIC!,已经活力满满了！,不拿燃爆能量升级通关,限制通关,最速：放到第3周目，与下面4个限制成就一次做：Circuit Mode + Easy，全程不碰任何 Burst Energy Upgrade。必要逻辑：升级拾取一旦拿到本周目就废；其余普通能量补给可正常拿。
+46,47,★★★★,ALREADY HEALTHY!,已经很健康了！,不拿生命升级通关,限制通关,最速：和 ALREADY ENERGETIC / ALMOST CHIPLESS / ALMOST TECHNIQUELESS / CIRCUIT STYLE FINISH 同周目完成；Easy，全程绕开所有 Health Upgrade。必要逻辑：普通回血、修理站不算“生命升级”。
+47,48,★★★★,ALMOST CHIPLESS!,根本用不着芯片！,不购买额外 Booster Chip 通关,限制通关,最速：Circuit Mode + Easy 限制周目中，Nurse 开局强制给的 Energy Absorber 可以正常拿/装备，之后一个 Booster Chip 都不要买。必要逻辑：关键是“不购买额外芯片”，不是“不能装备免费芯片”。
+48,49,★★★★,ALMOST TECHNIQUELESS!,根本用不着新技能！,不购买额外燃爆技能通关,限制通关,最速：同一限制周目完成；序章免费得到 Flying Strike 可以正常使用，之后一个新 Burst Technique 都不要买。必要逻辑：关键是“不购买额外技能”，免费初始技能不破坏成就。
+49,50,★★★★,CIRCUIT STYLE FINISH!,任务...完全回路风格！,Circuit Mode 通关,模式通关,最速：第3周目直接 Circuit Mode + Easy，并和“不拿生命/能量升级、不买芯片、不买技能”4项合并，一趟拿5个成就。必要逻辑：Circuit Mode 需先在其它存档通关一次后解锁。
+50,51,★★★★,CIRCUIT MASTER!,回路大师！,Circuit Crystal 战一次完成且不能死亡,Boss挑战,最速：不用重新跑整关，去 HQ 的 C.O.M. Boss Refight，选择 Circuit Crystal 的“gauntlet”版本；Energy Multiplier + Energy Absorber + Repair Enhancer，带 Emergency Heal，一口气打完。必要逻辑：不能死亡，也不能在阶段存档后“Reload Checkpoint”；开发者确认 C.O.M. gauntlet 同样可解锁。
+51,52,★★★★★,FLAWLESS CLEAR!,无损清关！,无伤完成一个完整关卡,无伤挑战,最速：Mission Select 顶部中间重打 Central Station/序章，这是社区攻略明确推荐的最简单路线；一路用 Hookshot 抓怪远程砸怪，Boss 前存满 Burst。必要逻辑：必须“整关+Boss”都0受伤，只无伤跑图不算。
+52,53,★★★★★,FULL CLEAR!,全成就！,获得其余全部52个成就,全成就,最速：按“首周目全收集 → NG+速通 → Circuit Mode五合一限制周目 → 最后补无伤/特殊Boss挑战”的顺序做，其他52个全亮后自动跳。必要逻辑：FULL CLEAR 本身没有额外条件，只检查其余52个。
